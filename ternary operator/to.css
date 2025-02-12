@@ -1,0 +1,28 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.content{
+    display: flex;
+    width: 150vmin;
+    height: 60vmin;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size: 80px;
+    color: rgb(246, 244, 244);
+}
+
+.content.access{
+    background-color: green;
+}
+.content.regist{
+    background-color: red;
+}
